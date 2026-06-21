@@ -4,12 +4,12 @@ This project focuses on fine-tuning **Microsoft’s Phi-mini large language mode
 
 ---
 
-## 📌 Overview
+##  Overview
 Neural Machine Translation (NMT) is a core NLP task. In this project, a pre-trained **Phi-mini LLM** is adapted for English → Hindi translation by applying **LoRA (Low-Rank Adaptation)**, significantly reducing the number of trainable parameters while maintaining translation quality.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 - Fine-tuned **Microsoft Phi-mini** for English → Hindi translation
 - Applied **PEFT with LoRA-based quantization** for memory-efficient training
 - Reduced GPU memory usage while preserving model performance
@@ -18,7 +18,7 @@ Neural Machine Translation (NMT) is a core NLP task. In this project, a pre-trai
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Programming Language:** Python  
 - **Framework:** TensorFlow  
 - **Libraries:**  
@@ -28,7 +28,7 @@ Neural Machine Translation (NMT) is a core NLP task. In this project, a pre-trai
 
 ---
 
-## 📂 Workflow
+## Workflow
 1. Load and preprocess parallel English–Hindi dataset
 2. Tokenize text using Hugging Face tokenizers
 3. Configure PEFT with LoRA and quantization
@@ -38,13 +38,13 @@ Neural Machine Translation (NMT) is a core NLP task. In this project, a pre-trai
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 - Used standard machine translation metrics such as **BLEU score**
 - Compared fine-tuned model outputs with baseline translations
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Train on larger and more diverse parallel corpora
 - Experiment with different LoRA ranks and quantization levels
 - Deploy the model as an API for real-time translation
@@ -52,14 +52,14 @@ Neural Machine Translation (NMT) is a core NLP task. In this project, a pre-trai
 
 ---
 
-## 📎 References
+##  References
 - Microsoft Phi Models
 - Hugging Face Transformers Documentation
 - PEFT & LoRA Research Papers
 
 ---
 
-## 👤 Author
+##  Author
 **Palson Raj Garnipudi**  
 Aspiring AI / Deep Learning Engineer  
 
